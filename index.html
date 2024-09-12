@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+<!--   Center our image: We only have one image on the page and we would like it centered! style container in head  -->
+    <style>
+      .container {
+          text-align: center;
+      }
+      img {
+          display: block;
+          margin: 0 auto;
+      }
+  </style>
+    <!-- Don't forget to link your CSS file! 
+     Links to style sheets should go at the end of the <head> section! -->
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
@@ -27,6 +39,7 @@
 
     <section id="details">
       <div>
+        
         <h3>Contact</h3>
         <p>
           <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
@@ -64,3 +77,16 @@
     </section>
   </body>
 </html>
+
+
+<!-- Jazz up our navigation links: Let's center all of our nav links as well. Give all of the <a> tags within our navbar padding of 10px on their left and right sides. 
+  In addition, change their background color to something of your choosing. We chose grey! 
+  (style.css) 
+
+  nav a {
+  padding: 10px;
+  background-color: red; /* Feel free to change this color */
+  text-decoration: none; /* Optional: Removes underline from links */
+  color: black; /* Optional: Changes text color */
+}
+  -->
